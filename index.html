@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="css/estatisticas.css">
     <link rel="stylesheet" href="css/obras.css">
     <link rel="stylesheet" href="css/anotacoes.css">
+    <link rel="stylesheet" href="css/lateral.css">
     <link rel="stylesheet" href="css/responsivo.css">
+
 </head>
 
 <body>
@@ -36,172 +38,195 @@
     <!-- CONTEÚDO PRINCIPAL -->
     <main>
 
-        <!-- CARROSSEL -->
-        <section class="carousel">
+    <!-- CARROSSEL -->
+    <section class="carousel">
 
-            <div class="carousel-container">
+        <div class="carousel-container">
 
-                <!-- Imagem 1 -->
-                <div class="carousel-slide active">
-                    <img src="imagens/carrossel1.jpg" alt="Uma das histórias registradas no Stellifer">
+            <!-- Imagem 1 -->
+            <div class="carousel-slide active">
 
-                    <div class="carousel-caption">
-                        <h2>Minhas histórias, minhas memórias.</h2>
-                        <p>
-                            Um lugar para guardar aquilo que vivi através das histórias.
-                        </p>
-                    </div>
-                </div>
+                <img
+                    src="imagens/carrossel1.jpg"
+                    alt="Uma das histórias registradas no Stellifer">
 
-                <!-- Imagem 2 -->
-                <div class="carousel-slide">
-                    <img src="imagens/carrossel2.jpg" alt="Imagem de uma obra registrada">
+                <div class="carousel-caption">
 
-                    <div class="carousel-caption">
-                        <h2>Cada história deixa uma marca.</h2>
-                        <p>
-                            Registre seus momentos favoritos.
-                        </p>
-                    </div>
-                </div>
+                    <h2>Minhas histórias, minhas memórias.</h2>
 
-                <!-- Imagem 3 -->
-                <div class="carousel-slide">
-                    <img src="imagens/carrossel3.jpg" alt="Imagem relacionada ao diário">
-
-                    <div class="carousel-caption">
-                        <h2>Reviva suas histórias.</h2>
-                        <p>
-                            Relembre o que você sentiu, pensou e viveu.
-                        </p>
-                    </div>
-                </div>
-
-
-                <!-- Botões -->
-                <button class="carousel-button prev">
-                    ❮
-                </button>
-
-                <button class="carousel-button next">
-                    ❯
-                </button>
-
-
-                <!-- Indicadores -->
-                <div class="carousel-indicators">
-
-                    <span
-                        class="indicator active"
-                        >
-                    </span>
-
-                    <span
-                        class="indicator"
-                        >
-                    </span>
-
-                    <span
-                        class="indicator">
-                    </span>
+                    <p>
+                        Um lugar para guardar aquilo que vivi através das histórias.
+                    </p>
 
                 </div>
 
             </div>
 
-        </section>
+
+            <!-- Imagem 2 -->
+            <div class="carousel-slide">
+
+                <img
+                    src="imagens/carrossel2.jpg"
+                    alt="Imagem de uma obra registrada">
+
+                <div class="carousel-caption">
+
+                    <h2>Cada história deixa uma marca.</h2>
+
+                    <p>
+                        Registre seus momentos favoritos.
+                    </p>
+
+                </div>
+
+            </div>
 
 
-        <!-- APRESENTAÇÃO -->
-        <section class="welcome">
+            <!-- Imagem 3 -->
+            <div class="carousel-slide">
 
-            <h1>Minhas Histórias Favoritas</h1>
+                <img
+                    src="imagens/carrossel3.jpg"
+                    alt="Imagem relacionada ao diário">
 
-            <p>
-                Um lugar para guardar aquilo que vivi através das histórias.
-            </p>
+                <div class="carousel-caption">
 
-            <button class="add-button">
-                + Adicionar obra
+                    <h2>Reviva suas histórias.</h2>
+
+                    <p>
+                        Relembre o que você sentiu, pensou e viveu.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- Botões -->
+            <button class="carousel-button prev">
+                ❮
             </button>
 
-        </section>
+            <button class="carousel-button next">
+                ❯
+            </button>
 
 
-        <!-- =====================================================
-     ESTATÍSTICAS
-===================================================== -->
+            <!-- Indicadores -->
+            <div class="carousel-indicators">
 
-<section class="statistics">
+                <span class="indicator active"></span>
 
-   <div class="section-title">
+                <span class="indicator"></span>
 
-    <h2>Minhas estatísticas</h2>
+                <span class="indicator"></span>
 
-    <div class="statistics-filters">
-
-        <!-- Seleção de mês e ano -->
-        <div class="date-selectors">
-
-            <select id="month-select">
-
-                <option value="1">Janeiro</option>
-                <option value="2">Fevereiro</option>
-                <option value="3">Março</option>
-                <option value="4">Abril</option>
-                <option value="5">Maio</option>
-                <option value="6">Junho</option>
-                <option value="7">Julho</option>
-                <option value="8">Agosto</option>
-                <option value="9">Setembro</option>
-                <option value="10" selected>Outubro</option>
-                <option value="11">Novembro</option>
-                <option value="12">Dezembro</option>
-
-            </select>
-
-
-            <select id="year-select">
-                <option value="2024">2024</option>
-                <option value="2025">2025</option>
-                <option value="2026" selected>2026</option>
-            </select>
+            </div>
 
         </div>
 
-
-        <!-- Botões de período -->
-        <div class="filter-buttons">
-
-            <button
-                class="filter-button active"
-                id="current-period-button"
-                type="button">
-
-                📅 Período atual
-
-            </button>
+    </section>
 
 
-            <button
-                class="filter-button"
-                id="general-button"
-                type="button">
+    <!-- APRESENTAÇÃO -->
+    <section class="welcome">
 
-                📊 Histórico geral
+        <h1>Minhas Histórias Favoritas</h1>
 
-            </button>
+        <p>
+            Um lugar para guardar aquilo que vivi através das histórias.
+        </p>
 
-            
+        <button class="add-button">
+            + Adicionar obra
+        </button>
 
-        </div>
-
-    </div>
-
-</div>
+    </section>
 
 
-   <div class="statistics-grid">
+    <!-- =====================================================
+         CONTEÚDO PRINCIPAL + LATERAL
+    ====================================================== -->
+
+    <div class="layout-principal">
+
+        <div class="conteudo-principal">
+
+            <!-- =====================================================
+                 ESTATÍSTICAS
+            ====================================================== -->
+
+            <section class="statistics">
+
+                <div class="section-title">
+
+                    <h2>Minhas estatísticas</h2>
+
+                    <div class="statistics-filters">
+
+                        <!-- Seleção de mês e ano -->
+                        <div class="date-selectors">
+
+                            <select id="month-select">
+
+                                <option value="1">Janeiro</option>
+                                <option value="2">Fevereiro</option>
+                                <option value="3">Março</option>
+                                <option value="4">Abril</option>
+                                <option value="5">Maio</option>
+                                <option value="6">Junho</option>
+                                <option value="7">Julho</option>
+                                <option value="8">Agosto</option>
+                                <option value="9">Setembro</option>
+                                <option value="10" selected>Outubro</option>
+                                <option value="11">Novembro</option>
+                                <option value="12">Dezembro</option>
+
+                            </select>
+
+
+                            <select id="year-select">
+
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026" selected>2026</option>
+
+                            </select>
+
+                        </div>
+
+
+                        <!-- Botões de período -->
+                        <div class="filter-buttons">
+
+                            <button
+                                class="filter-button active"
+                                id="current-period-button"
+                                type="button">
+
+                                📅 Período atual
+
+                            </button>
+
+
+                            <button
+                                class="filter-button"
+                                id="general-button"
+                                type="button">
+
+                                📊 Histórico geral
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            <div class="statistics-grid">
 
 
     <!-- =====================================================
@@ -744,10 +769,94 @@
 
             </div>
 
-        </section>
+         </section>
 
-    </main>
+    </div>
 
+        <!-- LATERAL -->
+        <aside class="lateral">
+
+            <!-- PERFIL -->
+            <div class="perfil-card">
+
+                <div class="perfil-conteudo-bloqueado">
+
+                    <div class="perfil-foto">
+                        <img src="imagens/perfil-placeholder.png" alt="Foto de perfil">
+                    </div>
+
+                    <h3>Larissa</h3>
+
+                    <p>@larissa</p>
+
+                    <span class="perfil-nivel">
+                        ✦ Nível 1
+                    </span>
+
+                </div>
+
+                <div class="login-overlay">
+                    <button>🔒 Faça login para visualizar</button>
+                </div>
+
+            </div>
+
+            <!-- CONQUISTAS -->
+            <div class="conquistas-card">
+
+            <div class="conquistas-conteudo-bloqueado">
+
+                <div class="conquistas-titulo">
+                    <h3>🏆 Conquistas</h3>
+                    <a href="#">Ver todas</a>
+                </div>
+
+                <div class="conquistas-lista">
+
+                    <div class="conquista">
+                        <div class="conquista-icone">📖</div>
+
+                        <div class="conquista-info">
+                            <strong>Primeira história</strong>
+                            <span>Registre sua primeira obra</span>
+                        </div>
+                    </div>
+
+                <div class="conquista">
+                    <div class="conquista-icone">⭐</div>
+
+                    <div class="conquista-info">
+                        <strong>Crítico iniciante</strong>
+                        <span>Avalie sua primeira obra</span>
+                    </div>
+                </div>
+
+                <div class="conquista">
+                    <div class="conquista-icone">✍️</div>
+
+                    <div class="conquista-info">
+                        <strong>Memórias guardadas</strong>
+                        <span>Faça sua primeira anotação</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+            <div class="conquistas-login-overlay">
+                <button>🔒 Faça login para visualizar</button>
+            </div>
+
+</div>
+
+            </div>
+
+        </div>
+
+        </aside>
+
+</main>
 
     <!-- RODAPÉ -->
     <footer>
