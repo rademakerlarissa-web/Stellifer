@@ -2608,6 +2608,45 @@ footer p:last-child {
 }
 
 /* =====================================================
+   AJUSTES DOS DESTAQUES E STATUS NO CELULAR
+===================================================== */
+
+@media (max-width: 650px) {
+
+    /* -------------------------
+       DESTAQUES
+    ------------------------- */
+
+    .highlights-card {
+        width: 100%;
+        padding: 22px 18px;
+    }
+
+    .highlights-list {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .highlight-work {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+
+    /* -------------------------
+       STATUS DAS OBRAS
+    ------------------------- */
+
+    .status-legend {
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+    }
+
+}
+
+/* =====================================================
    AJUSTES PARA CELULAR
 ===================================================== */
 
