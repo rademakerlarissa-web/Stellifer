@@ -120,27 +120,6 @@ weekDays.forEach(function(day) {
 // PERÍODO PERSONALIZADO
 // =====================================================
 
-monthSelect.addEventListener("change", function() {
-
-    currentPeriodButton.classList.remove("active");
-    generalButton.classList.remove("active");
-
-    
-
-});
-
-
-yearSelect.addEventListener("change", function() {
-
-    currentPeriodButton.classList.remove("active");
-    generalButton.classList.remove("active");
-
-   
-
-});
-
-
-
 // =====================================================
 // TEXTO DO PERÍODO DAS ESTATÍSTICAS
 // =====================================================
